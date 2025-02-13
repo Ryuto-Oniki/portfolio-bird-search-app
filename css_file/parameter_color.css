@@ -1,0 +1,43 @@
+.red_brown {
+    background-color: #da4c00;
+    color: #f3f3f3;
+
+    /* SVGの画像の色を変えるとき使うのは「fill」!! */
+    fill: #da4c00;
+}
+
+.black {
+    background-color: #333;
+    color: #f3f3f3;
+    fill: #333;
+}
+
+.grey {
+    background-color: #777;
+    color: #f3f3f3;
+    fill: #777;
+}
+
+.light_orange {
+    background-color: #ffbc8d;
+    color: #333;
+    fill: #ffbc8d;
+}
+
+.white {
+    background-color: #f3f3f3;
+    color: #333;
+    fill: #f3f3f3;
+}
+
+.yellow_green {
+    background-color: #e7e959;
+    color: #333;
+    fill: #e7e959;
+}
+
+.olive_bluegrey {
+    background: linear-gradient(90deg, #0e9865, #25485d);
+    color: #f3f3f3;
+    fill: url(#grad1);
+}

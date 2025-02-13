@@ -1,0 +1,113 @@
+body {
+    background: #ececec;
+}
+
+.page_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bard_atari {
+    /* background-color: antiquewhite; */
+    margin: 80px 100px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.parameters {
+    /* background-color: #ffffda; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.parameter {
+    display: inline-block;
+    margin:  5px 2px;
+    padding: 15px 30px;
+    background-color: #f7f7f7;
+    height: 70px;
+    width: 140px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 0.6rem;
+}
+
+select {
+    width: 120px;
+    padding: 3px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.more_parameters {
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffecad;
+    border-radius: 0.1rem;
+}
+
+.search_button {
+    border: none;
+    padding: 14px 160px;
+    margin: 40px;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    background-color: #f7f7f7;
+}
+
+
+
+
+
+svg {
+    width: 450px;
+}
+
+/* #head {
+    background-color: aqua;
+    color: blue;
+    fill: aqua;
+} */
+
+/* #body {
+    fill: wheat;
+} */
+
+#back_legs {
+    fill: #222;
+}
+#front_legs {
+    fill: #333;
+}
+
+/* #feather {
+    fill: brown;
+} */
+#tail_feathers_multiply{
+    fill: #e5e5e5;
+    mix-blend-mode: multiply;
+}
+
+/* #cheeks {
+    fill: #ffbc8d;
+} */
+
+#beak {
+    fill: #222;
+}
+
+hr {
+    margin: 80px 0 30px;
+}
